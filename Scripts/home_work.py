@@ -1,5 +1,5 @@
-from multiprocessing.pool import worker
-from operator import index
+# from multiprocessing.pool import worker
+# from operator import index
 
 # numbers = [-5, 3, -1, 7, -2, 10]
 # for i in numbers:
