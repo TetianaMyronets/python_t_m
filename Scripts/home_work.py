@@ -1,5 +1,7 @@
 # from multiprocessing.pool import worker
 # from operator import index
+from collections import deque
+from email.policy import default
 
 # numbers = [-5, 3, -1, 7, -2, 10]
 # for i in numbers:
@@ -172,4 +174,51 @@ print('Max avg student score: ', student_max_avg_name, student_max_avg_value)
 
 students["Oleg"].append(85)
 print("Updated Oleg's score: ", students["Oleg"])
+
+
+# phone_book = {
+#     "Anna": 97889765467,
+#     "Ben": 9887394057,
+#     "Mike": 9603948756
+# }
+
+# def add_contact(dict, name, phone_number):
+#     dict[name] = phone_number
+#     # return dict
+#     print(dict)
+# # print(add_contact(phone_book, 'John', 9888888888))
+# add_contact(phone_book, 'Sarah', 1234567890)
+
+# def find_contact(dict, name):
+#     return dict.get(name)
+#
+# print(find_contact(phone_book, 'Anna'))
+
+# def delete_contact(dict, name):
+#     # del dict[name]
+#     dict.pop(name)
+#     print(dict)
+#
+# delete_contact(phone_book, 'Mike')
+
+# def update_contact(dict, name, phone_number):
+#     if name in dict.keys():
+#         dict[name] = phone_number
+#     else:
+#         return None
+#     return dict
+#
+# print(update_contact(phone_book, 'Anna', 9888888888))
+
+
+# pairs = [("apple", 2), ("banana", 3), ("orange", 1)]
+# my_dict = dict(pairs)
+# print(my_dict)
+
+
+# data = {"a": 1, "b": 2, "c": 3}
+# new_data = {}
+# for key, value in data.items():
+#     new_data[value] = key
+# print(new_data)
 
